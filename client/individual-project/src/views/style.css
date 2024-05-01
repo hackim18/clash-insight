@@ -1,0 +1,71 @@
+Navbar container .navbar {
+  background-color: #007bff; /* Warna latar belakang navbar */
+  color: #fff; /* Warna teks navbar */
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan di bawah navbar */
+}
+
+/* Navbar logo */
+.navbar-logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-logo:hover {
+  color: #f8f9fa; /* Warna logo saat dihover */
+}
+
+/* Navbar menu */
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px; /* Sudut melengkung tombol */
+  transition: background-color 0.3s; /* Transisi perubahan warna latar belakang saat dihover */
+}
+
+.navbar-link:hover {
+  background-color: #0056b3; /* Warna latar belakang saat dihover */
+}
+
+/* Navbar dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd;
+}

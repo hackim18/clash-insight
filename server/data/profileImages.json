@@ -1,0 +1,42 @@
+[
+  {
+    "imgUrl": "engadget.com",
+    "vipImg": true
+  },
+  {
+    "imgUrl": "go.com",
+    "vipImg": false
+  },
+  {
+    "imgUrl": "privacy.gov.au",
+    "vipImg": true
+  },
+  {
+    "imgUrl": "telegraph.co.uk",
+    "vipImg": false
+  },
+  {
+    "imgUrl": "opensource.org",
+    "vipImg": true
+  },
+  {
+    "imgUrl": "state.gov",
+    "vipImg": true
+  },
+  {
+    "imgUrl": "dagondesign.com",
+    "vipImg": false
+  },
+  {
+    "imgUrl": "vkontakte.ru",
+    "vipImg": false
+  },
+  {
+    "imgUrl": "skype.com",
+    "vipImg": false
+  },
+  {
+    "imgUrl": "cnn.com",
+    "vipImg": false
+  }
+]
